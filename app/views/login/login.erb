@@ -3,9 +3,6 @@
 <head>
   <%= csrf_meta_tags %>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <script src="assets/jquery-1.9.1.min.js"></script>
-  <link href="assets/oa_online_style.css" type="text/css"  rel="stylesheet">
-  <link href="assets/login.css" type="text/css"  rel="stylesheet">
   <script src="assets/login.js"></script>
   <title>登录</title>
   <!--为了让IE支持HTML5元素，做如下操作：-->
@@ -20,36 +17,74 @@
 
 <body>
     <div class="wrap">
-      <%=form_tag "/dounionlogin",:id => "submitForm" do %>
+      <%=form_tag :method=>"post", :id => "submitForm" do %>
           <section class="loginForm">
             <header>
               <h1>
                 Login
               </h1>
             </header>
-            <div class="loginForm_content">
-                   <fieldset>
-                     <div class="inputWrap">
-                       <%= text_field("user","name",:class=> "inputWrap",:id=>"name",:type=>"text" )%>
-                     </div>
-                     <div class="inputWrap">
-                       <%= text_field("user","password",:class=>"inputWrap",:id=>"password",:type=>"password")%>
-                     </div>
-                   </fieldset>
-                   <fieldset>
-                       <input type="submit" onclick="" class="k-button" value="登录">
-                       <a href="/reg">
-                         免费注册
-                       </a>
-                       |
-                       <a href="/forgetpassword">
-                         找回密码
-                       </a>
-                       <span id="result_span"></span>
-                   </fieldset>
+            <div id="tabstrip">
+              <ul>
+                <li class="k-state-active">
+                   User
+                </li>
+                <li>
+                  Company
+                </li>
+              </ul>
+              <div>
+                <div class="loginForm_content">
+                  <fieldset>
+                    <div class="inputWrap">
+                      <%= text_field("user","name",:class=> "inputWrap",:id=>"uname",:type=>"text" )%>
+                    </div>
+                    <div class="inputWrap">
+                      <%= text_field("user","password",:class=>"inputWrap",:id=>"upassword",:type=>"password")%>
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                     <input class="k-button" value="登录" onclick="userLogin();"/>
+                  </fieldset>
+                </div>
+              </div>
+              <div>
+                <div class="loginForm_content">
+                  <fieldset>
+                    <div class="inputWrap">
+                      <%= text_field("company","name",:class=> "inputWrap",:id=>"cname",:type=>"text" )%>
+                    </div>
+                    <div class="inputWrap">
+                      <%= text_field("company","password",:class=>"inputWrap",:id=>"cpassword",:type=>"password")%>
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <input type="submit" onclick="" class="k-button" value="登录">
+                    <a href="/reg">
+                      免费注册
+                    </a>
+                    |
+                    <a href="/forgetpassword">
+                      找回密码
+                    </a>
+                    <span id="result_span"></span>
+                  </fieldset>
+                </div>
                  </div>
+            </div>
             </section>
       <% end %>
     </div>
+<script>
+    $(document).ready(function() {
+        $("#tabstrip").kendoTabStrip({
+            animation:  {
+                open: {
+                    effects: "fadeIn"
+                }
+            }
+        });
+    });
+</script>
 </body>
 </html>

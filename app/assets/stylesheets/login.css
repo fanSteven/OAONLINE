@@ -58,7 +58,7 @@ fieldset input[type=text], fieldset input[type=password] {
     height:24px;
     border:none;
     padding:3px 4px 3px 2.2em;
-    width:300px;
+    width:200px;
 }
 .btnWrap {
     margin-left: 13px;
@@ -70,7 +70,7 @@ fieldset input[type=text], fieldset input[type=password] {
     background: -o-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
     border-radius:3px;
     border:1px solid #CCC;
-    margin:10px 10px 0;
+    margin:10px 0px 0;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF');
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF')";
 }
