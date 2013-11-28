@@ -14,7 +14,7 @@
 development:
   adapter: mysql2
   database: oaonline
-  host: 192.168.0.103
+  host: 192.168.0.123
   username: root
   password: root
   encoding: utf8

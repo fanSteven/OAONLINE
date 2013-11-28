@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131120091259) do
+ActiveRecord::Schema.define(version: 20131128032648) do
 
   create_table "companies", force: true do |t|
     t.string   "name"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 20131120091259) do
     t.decimal  "level",       precision: 10, scale: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "password"
+    t.string   "username"
   end
 
   create_table "departments", force: true do |t|
