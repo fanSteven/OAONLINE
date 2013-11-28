@@ -1,0 +1,36 @@
+<head>
+  <script src="assets/jquery-1.9.1.min.js"></script>
+  <script src="assets/kendo.web.min.js"></script>
+
+
+  <link href="assets/kendo.common.min.css" type="text/css" rel="stylesheet">
+  <link href="assets/kendo.default.min.css" type="text/css" rel="stylesheet">
+  <script>
+      $(document).ready(function() {
+          $("#menu").kendoMenu({
+              direction: "bottom"
+          });
+      });
+  </script>
+</head>
+<table>
+  <tbody>
+  <div class="k-rtl">
+    <ul id="menu">
+        <% first_menus.each do |firstMenu| %>
+             <li>
+               <%= firstMenu.name %>
+               <ul>
+                    <% Menu.find_second_level_menu(firstMenu.id).each do |secondMenu| %>
+                      <li>
+                          <%= secondMenu.name %>
+                      </li>
+                    <% end %>
+               </ul>
+             </li>
+        <% end %>
+    </ul>
+  </div>
+  </tbody>
+</table>
+<br>

@@ -1,0 +1,1278 @@
+@CHARSET "UTF-8";
+
+#grid .sandbox .c1 {
+    width: 20px;
+}
+#grid .sandbox .c2 {
+    width: 40px;
+}
+#grid .sandbox .c3 {
+    width: 60px;
+}
+#grid .sandbox .c4 {
+    width: 80px;
+}
+#grid .sandbox .c5 {
+    width: 100px;
+}
+#grid .sandbox .c6 {
+    width: 120px;
+}
+#grid .sandbox .c7 {
+    width: 140px;
+}
+#grid .sandbox .c8 {
+    width: 160px;
+}
+#grid .sandbox .c9 {
+    width: 180px;
+}
+#grid .sandbox .c10 {
+    width: 200px;
+}
+#grid .sandbox .c11 {
+    width: 220px;
+}
+#grid .sandbox .c12 {
+    width: 240px;
+}
+#grid .sandbox .c13 {
+    width: 260px;
+}
+#grid .sandbox .c14 {
+    width: 280px;
+}
+#grid .sandbox .c15 {
+    width: 300px;
+}
+#grid .sandbox .c16 {
+    width: 320px;
+}
+#grid .sandbox .c17 {
+    width: 340px;
+}
+#grid .sandbox .c18 {
+    width: 360px;
+}
+#grid .sandbox .c19 {
+    width: 380px;
+}
+#grid .sandbox .c20 {
+    width: 400px;
+}
+#grid .sandbox .c21 {
+    width: 420px;
+}
+#grid .sandbox .c22 {
+    width: 440px;
+}
+#grid .sandbox .c23 {
+    width: 460px;
+}
+#grid .sandbox .c24 {
+    width: 480px;
+}
+#grid .sandbox .c25 {
+    width: 500px;
+}
+#grid .sandbox .c26 {
+    width: 520px;
+}
+#grid .sandbox .c27 {
+    width: 540px;
+}
+#grid .sandbox .c28 {
+    width: 560px;
+}
+#grid .sandbox .c29 {
+    width: 580px;
+}
+#grid .sandbox .c30 {
+    width: 600px;
+}
+#grid .sandbox .c31 {
+    width: 620px;
+}
+#grid .sandbox .c32 {
+    width: 640px;
+}
+#grid .sandbox .c33 {
+    width: 660px;
+}
+#grid .sandbox .c34 {
+    width: 680px;
+}
+#grid .sandbox .c35 {
+    width: 700px;
+}
+#grid .sandbox .c36 {
+    width: 720px;
+}
+#grid .sandbox .c37 {
+    width: 740px;
+}
+#grid .sandbox .c38 {
+    width: 760px;
+}
+#grid .sandbox .c39 {
+    width: 780px;
+}
+#grid .sandbox .c40 {
+    width: 800px;
+}
+#grid .sandbox .c41 {
+    width: 820px;
+}
+#grid .sandbox .c42 {
+    width: 840px;
+}
+#grid .sandbox .c43 {
+    width: 860px;
+}
+#grid .sandbox .c44 {
+    width: 880px;
+}
+#grid .sandbox .c45 {
+    width: 900px;
+}
+#grid .sandbox .clearfix {
+}
+#grid .sandbox .clearfix:before, #grid .sandbox .clearfix:after {
+    content: "";
+    display: table;
+}
+#grid .sandbox .clearfix:after {
+    clear: both;
+}
+#grid .sandbox .cb {
+    clear: both;
+}
+#grid .sandbox .clr {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14, .c15, .c16, .c17, .c18, .c19, .c20, .c21, .c22, .c23, .c24, .c25, .c26, .c27, .c28, .c29, .c30, .c31, .c32, .c33, .c34, .c35, .c36, .c37, .c38, .c39, .c40, .c41, .c42, .c43, .c44, .c45, .one-col, .two-col, .three-col, .four-col, .five-col, .six-col, .seven-col {
+    float: left;
+    margin-left: 20px;
+}
+#grid .wa {
+    width: auto;
+}
+.one-col {
+    clear: both;
+    float: none;
+    margin-left: 0;
+    width: 940px;
+}
+.two-col {
+    width: 460px;
+}
+.three-col {
+    width: 300px;
+}
+.four-col {
+    width: 220px;
+}
+.five-col {
+    width: 172px;
+}
+.six-col {
+    width: 140px;
+}
+.seven-col {
+    width: 117.143px;
+}
+#grid .sandbox .tal {
+    text-align: left;
+}
+#grid .sandbox .tar {
+    text-align: right;
+}
+#grid .sandbox .tac {
+    text-align: center;
+}
+#grid .sandbox .tdn {
+    text-decoration: none;
+}
+#grid .sandbox .tdu {
+    text-decoration: underline;
+}
+#grid .sandbox .ttu {
+    text-transform: uppercase;
+}
+#grid .sandbox .wsn {
+    white-space: nowrap;
+}
+#grid .sandbox .nm {
+    margin: 0;
+}
+#grid .sandbox .ma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#grid .sandbox .mt-100 {
+    margin-top: -100px;
+}
+#grid .sandbox .mt-30 {
+    margin-top: -20px;
+}
+#grid .sandbox .mt-20 {
+    margin-top: -20px;
+}
+#grid .sandbox .mt-10 {
+    margin-top: -10px;
+}
+#grid .sandbox .mt0 {
+    margin-top: 0;
+}
+#grid .sandbox .mt10 {
+    margin-top: 10px;
+}
+#grid .sandbox .mt20 {
+    margin-top: 20px;
+}
+#grid .sandbox .mt30 {
+    margin-top: 30px;
+}
+#grid .sandbox .mt40 {
+    margin-top: 40px;
+}
+#grid .sandbox .mt50 {
+    margin-top: 50px;
+}
+#grid .sandbox .mt60 {
+    margin-top: 60px;
+}
+#grid .sandbox .mt70 {
+    margin-top: 70px;
+}
+#grid .sandbox .mt80 {
+    margin-top: 80px;
+}
+#grid .sandbox .mt90 {
+    margin-top: 90px;
+}
+#grid .sandbox .mt100 {
+    margin-top: 100px;
+}
+#grid .sandbox .mr0 {
+    margin-right: 0;
+}
+#grid .sandbox .mr10 {
+    margin-right: 10px;
+}
+#grid .sandbox .mr20 {
+    margin-right: 20px;
+}
+#grid .sandbox .mr30 {
+    margin-right: 30px;
+}
+#grid .sandbox .mr40 {
+    margin-right: 40px;
+}
+#grid .sandbox .mr50 {
+    margin-right: 50px;
+}
+#grid .sandbox .mr60 {
+    margin-right: 60px;
+}
+#grid .sandbox .mr70 {
+    margin-right: 70px;
+}
+#grid .sandbox .mb-120 {
+    margin-bottom: -120px;
+}
+#grid .sandbox .mb-100 {
+    margin-bottom: -100px;
+}
+#grid .sandbox .mb-90 {
+    margin-bottom: -90px;
+}
+#grid .sandbox .mb-80 {
+    margin-bottom: -80px;
+}
+#grid .sandbox .mb-70 {
+    margin-bottom: -70px;
+}
+#grid .sandbox .mb-60 {
+    margin-bottom: -60px;
+}
+#grid .sandbox .mb-50 {
+    margin-bottom: -50px;
+}
+#grid .sandbox .mb-40 {
+    margin-bottom: -40px;
+}
+#grid .sandbox .mb-30 {
+    margin-bottom: -30px;
+}
+#grid .sandbox .mb-20 {
+    margin-bottom: -20px;
+}
+#grid .sandbox .mb-10 {
+    margin-bottom: -10px;
+}
+#grid .sandbox .mb0 {
+    margin-bottom: 0;
+}
+#grid .sandbox .mb10 {
+    margin-bottom: 10px;
+}
+#grid .sandbox .mb20 {
+    margin-bottom: 20px;
+}
+#grid .sandbox .mb30 {
+    margin-bottom: 30px;
+}
+#grid .sandbox .mb40 {
+    margin-bottom: 40px;
+}
+#grid .sandbox .mb50 {
+    margin-bottom: 50px;
+}
+#grid .sandbox .mb60 {
+    margin-bottom: 60px;
+}
+#grid .sandbox .mb70 {
+    margin-bottom: 70px;
+}
+#grid .sandbox .mb80 {
+    margin-bottom: 80px;
+}
+#grid .sandbox .mb90 {
+    margin-bottom: 90px;
+}
+#grid .sandbox .mb100 {
+    margin-bottom: 100px;
+}
+#grid .sandbox .mb150 {
+    margin-bottom: 150px;
+}
+#grid .sandbox .nml20 {
+    margin-left: -20px;
+}
+#grid .sandbox .ml0 {
+    margin-left: 0;
+}
+#grid .sandbox .ml10 {
+    margin-left: 10px;
+}
+#grid .sandbox .ml20 {
+    margin-left: 20px;
+}
+#grid .sandbox .ml30 {
+    margin-left: 30px;
+}
+#grid .sandbox .ml40 {
+    margin-left: 40px;
+}
+#grid .sandbox .ml50 {
+    margin-left: 50px;
+}
+#grid .sandbox .ml60 {
+    margin-left: 60px;
+}
+#grid .sandbox .ml70 {
+    margin-left: 70px;
+}
+#grid .sandbox .ml80 {
+    margin-left: 80px;
+}
+#grid .sandbox .ml90 {
+    margin-left: 90px;
+}
+#grid .sandbox .ml100 {
+    margin-left: 100px;
+}
+#grid .sandbox .ml120 {
+    margin-left: 120px;
+}
+#grid .sandbox .ml130 {
+    margin-left: 130px;
+}
+#grid .sandbox .ml140 {
+    margin-left: 140px;
+}
+#grid .sandbox .np {
+    padding: 0;
+}
+#grid .sandbox .p10 {
+    padding: 10px;
+}
+#grid .sandbox .p20 {
+    padding: 20px;
+}
+#grid .sandbox .p30 {
+    padding: 30px;
+}
+#grid .sandbox .pt0 {
+    padding-top: 0;
+}
+#grid .sandbox .pt10 {
+    padding-top: 10px;
+}
+#grid .sandbox .pt20 {
+    padding-top: 20px;
+}
+#grid .sandbox .pt30 {
+    padding-top: 30px;
+}
+#grid .sandbox .pt40 {
+    padding-top: 40px;
+}
+#grid .sandbox .pt50 {
+    padding-top: 50px;
+}
+#grid .sandbox .pt60 {
+    padding-top: 60px;
+}
+#grid .sandbox .pt100 {
+    padding-top: 100px;
+}
+#grid .sandbox .pr0 {
+    padding-right: 0;
+}
+#grid .sandbox .pr5 {
+    padding-right: 5px;
+}
+#grid .sandbox .pr10 {
+    padding-right: 10px;
+}
+#grid .sandbox .pr20 {
+    padding-right: 20px;
+}
+#grid .sandbox .pr30 {
+    padding-right: 30px;
+}
+#grid .sandbox .pr40 {
+    padding-right: 40px;
+}
+#grid .sandbox .pr50 {
+    padding-right: 50px;
+}
+#grid .sandbox .pr60 {
+    padding-right: 60px;
+}
+#grid .sandbox .pb0 {
+    padding-bottom: 0;
+}
+#grid .sandbox .pb10 {
+    padding-bottom: 10px;
+}
+#grid .sandbox .pb20 {
+    padding-bottom: 20px;
+}
+#grid .sandbox .pb30 {
+    padding-bottom: 30px;
+}
+#grid .sandbox .pb40 {
+    padding-bottom: 40px;
+}
+#grid .sandbox .pb50 {
+    padding-bottom: 50px;
+}
+#grid .sandbox .pb60 {
+    padding-bottom: 60px;
+}
+#grid .sandbox .pb70 {
+    padding-bottom: 70px;
+}
+#grid .sandbox .pb80 {
+    padding-bottom: 80px;
+}
+#grid .sandbox .pb90 {
+    padding-bottom: 90px;
+}
+#grid .sandbox .pb100 {
+    padding-bottom: 100px;
+}
+#grid .sandbox .pb110 {
+    padding-bottom: 110px;
+}
+#grid .sandbox .pb120 {
+    padding-bottom: 120px;
+}
+#grid .sandbox .pb130 {
+    padding-bottom: 130px;
+}
+#grid .sandbox .pb140 {
+    padding-bottom: 140px;
+}
+#grid .sandbox .pb150 {
+    padding-bottom: 150px;
+}
+#grid .sandbox .pb160 {
+    padding-bottom: 160px;
+}
+#grid .sandbox .pl0 {
+    padding-left: 0;
+}
+#grid .sandbox .pl5 {
+    padding-left: 5px;
+}
+#grid .sandbox .pl10 {
+    padding-left: 10px;
+}
+#grid .sandbox .pl20 {
+    padding-left: 20px;
+}
+#grid .sandbox .pl30 {
+    padding-left: 30px;
+}
+#grid .sandbox .pl40 {
+    padding-left: 40px;
+}
+#grid .sandbox .pl50 {
+    padding-left: 50px;
+}
+#grid .sandbox .pl60 {
+    padding-left: 60px;
+}
+#grid .sandbox .pl120 {
+    padding-left: 120px;
+}
+#grid .sandbox .pl130 {
+    padding-left: 130px;
+}
+#grid .sandbox .fl {
+    float: left;
+}
+#grid .sandbox .fr {
+    float: right;
+}
+#grid .sandbox .fn {
+    float: none;
+}
+#grid .sandbox .ps {
+    position: static;
+}
+#grid .sandbox .pr {
+    position: relative;
+}
+#grid .sandbox .pa {
+    position: absolute;
+}
+#grid .sandbox .pf {
+    position: fixed;
+}
+#grid .sandbox .dn {
+    display: none;
+}
+#grid .sandbox .db {
+    display: block;
+}
+#grid .sandbox .di {
+    display: inline;
+}
+#grid .sandbox .dib {
+    display: inline-block;
+}
+#grid .sandbox .nb {
+    border: medium none;
+}
+#grid .sandbox .rounded3 {
+    background-clip: padding-box;
+    border-radius: 3px 3px 3px 3px;
+}
+#grid .sandbox .rounded5 {
+    background-clip: padding-box;
+    border-radius: 5px 5px 5px 5px;
+}
+#grid .sandbox .rounded10 {
+    background-clip: padding-box;
+    border-radius: 10px 10px 10px 10px;
+}
+#grid .sandbox .bgin {
+    background-image: none;
+}
+#grid .sandbox .centered {
+    margin: 0 auto;
+    width: 988px;
+}
+#grid .sandbox .round-image-10 {
+    background-clip: padding-box;
+    border: 1px solid #DEDEDE;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+}
+#grid .sandbox .round-image-10 img {
+    background-clip: padding-box;
+    border-radius: 9px 9px 9px 9px;
+    display: block;
+}
+#grid .sandbox .round-image-5 {
+    background-clip: padding-box;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+}
+#grid .sandbox .round-image-5 img {
+    background-clip: padding-box;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+}
+.ie6 #wrapper {
+    height: 100%;
+}
+.ie6 #footer li, .ie7 #footer li {
+    padding-right: 6px;
+}
+.ie7.scroll {
+    overflow: hidden;
+}
+.ie6 .tabs li, .ie7 .tabs li, .ie6 #thumbs li, .ie7 #thumbs li {
+    display: inline-block;
+}
+.ie6 .c1, .ie6 .c2, .ie6 .c3, .ie6 .c4, .ie6 .c5, .ie6 .c6, .ie6 .c7, .ie6 .c8, .ie6 .c9, .ie6 .c10, .ie6 .c11, .ie6 .c12, .ie6 .c13, .ie6 .c14, .ie6 .c15, .ie6 .c16, .ie6 .c17, .ie6 .c18, .ie6 .c19, .ie6 .c20, .ie6 .c21, .ie6 .c22, .ie6 .c23, .ie6 .c24, .ie6 .c25, .ie6 .c26, .ie6 .c27, .ie6 .c28, .ie6 .c29, .ie6 .c30, .ie6 .c31, .ie6 .c32, .ie6 .c33, .ie6 .c34, .ie6 .c35, .ie6 .one-col, .ie6 .two-col, .ie6 .three-col, .ie6 .four-col, .ie6 .five-col, .ie6 .six-col {
+    display: inline;
+}
+@font-face {
+    font-family: "Segoe UI Light";
+    src: local("Segoe UI Light");
+}
+@font-face {
+    font-family: "Segoe UI Semibold";
+    src: local("Segoe UI Semibold");
+}
+#grid .fs10 {
+    font-family: "Segoe UI Semibold",Tahoma,arial,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+}
+#grid .fs14 {
+    font-size: 14px;
+}
+#grid .fs18 {
+    font-family: "Segoe UI",Tahoma,arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+#grid .fs20 {
+    font-family: "Segoe UI Light",Tahoma,arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+#grid .fs24 {
+    font-family: "Segoe UI Light",Tahoma,arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#grid .lh16 {
+    line-height: 16px;
+}
+#grid .lh24 {
+    line-height: 24px;
+}
+#grid .lh30 {
+    line-height: 30px;
+}
+#grid .lh42 {
+    line-height: 42px;
+}
+#wrapper {
+    position: relative;
+    z-index: 1;
+}
+#main, .tWrapAll {
+    background: none repeat scroll 0 0 transparent !important;
+}
+#sitenav {
+    background: none repeat scroll 0 0 #21242C;
+    font-family: "Segoe UI",Tahoma,arial,sans-serif;
+    height: 38px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 20;
+}
+#sitenav h4 {
+    color: #999999;
+    font-family: "Segoe UI Semibold";
+    font-size: 12px;
+    text-transform: uppercase;
+}
+#sitenav .products h2 {
+    margin: 0;
+    padding-bottom: 16px;
+}
+#sitenav p {
+    margin: 0;
+}
+#sitenav-bar {
+    background: none repeat scroll 0 0 padding-box #21242C;
+    border-radius: 0 0 10px 10px;
+    height: 38px;
+    margin: 0 auto;
+    padding: 0 23px 0 10px;
+    position: relative;
+    width: 953px;
+    z-index: 5;
+}
+#sitenav-bar li {
+    list-style: none outside none;
+}
+#Telerik-logo {
+    float: left;
+    height: 38px;
+    width: 130px;
+}
+#telerik-slogan {
+    background: url("main-sprite.png") no-repeat scroll 0 -772px transparent;
+    bottom: -22px;
+    display: none;
+    height: 18px;
+    left: 23px;
+    opacity: 0;
+    position: absolute;
+    width: 130px;
+}
+#sitenav-main {
+    background: url("main-sprite.png") repeat-x scroll 50% 100% transparent;
+    border-radius: 0 0 10px 10px;
+    height: 440px;
+    left: 50%;
+    line-height: 1.5;
+    margin: 0 0 0 -494px;
+    overflow: hidden;
+    position: absolute;
+    top: -440px;
+    width: 986px;
+}
+#sitenav-main .products {
+    background: none repeat scroll 0 0 #21242C;
+    border-bottom: 1px solid #4E4F52;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 10px;
+    padding: 100px 15px 16px;
+}
+#sitenav-main .products p {
+    background: url("main-sprite.png") no-repeat scroll 100% -970px transparent;
+}
+#sitenav-main .products li {
+    float: left;
+    list-style: none outside none;
+    width: 300px;
+}
+#sitenav-main .products li.dev-tools {
+    margin: 0;
+    width: 620px;
+}
+#sitenav-main .products li.kendo {
+    margin: 0 0 0 4px;
+}
+#sitenav-main .products li.test-studio {
+    clear: both;
+    margin: 4px 0 0;
+}
+#sitenav-main .products li.sitefinity, #sitenav-main .products li.team-pulse {
+    margin: 4px 0 0 4px;
+}
+#sitenav-main .products a.dev-tools div, #sitenav-main .products a.kendo div, #sitenav-main .products a.test-studio div, #sitenav-main .products a.sitefinity div, #sitenav-main .products a.team-pulse div {
+    height: 110px;
+}
+#sitenav-main .call-us {
+    color: #C1C1C1;
+    float: left;
+    margin: 4px 0 0 36px;
+    opacity: 0.8;
+    width: 180px;
+}
+#sitenav-main .call-us h3 {
+    color: #C1C1C1;
+    float: left;
+    font-family: "Segoe UI Light",Tahoma,arial,sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 0;
+    margin-top: -4px;
+}
+#sitenav-main .call-us span {
+    color: #939495;
+    float: left;
+    font-size: 11px;
+}
+#sitenav-main .phone-icon {
+    background: url("main-sprite.png") no-repeat scroll -120px -830px transparent;
+    float: left;
+    height: 36px;
+    margin-right: 10px;
+    width: 36px;
+}
+#sitenav-main .contacts {
+    color: #BFC0C1;
+    float: left;
+    font-size: 11px;
+    margin: 4px 0 0 10px;
+    padding: 0;
+    width: 420px;
+}
+#sitenav-main .contacts li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 0 6px;
+    width: 140px;
+}
+#sitenav-main .contacts li a {
+    color: #BFC0C1;
+    text-decoration: none;
+}
+#sitenav-main .contacts .mail, #sitenav-main .contacts .us, #sitenav-main .contacts .uk, #sitenav-main .contacts .au, #sitenav-main .contacts .bg, #sitenav-main .contacts .de {
+    background: url("main-sprite.png") no-repeat scroll 0 -880px transparent;
+    float: left;
+    height: 11px;
+    margin: 3px 5px 0 0;
+    overflow: hidden;
+    text-indent: 30px;
+    width: 16px;
+}
+#sitenav-main .contacts .us {
+    background-position: 0 -870px;
+}
+#sitenav-main .contacts .uk {
+    background-position: 0 -883px;
+}
+#sitenav-main .contacts .bg {
+    background-position: 0 -896px;
+}
+#sitenav-main .contacts .de {
+    background-position: 0 -909px;
+}
+#sitenav-main .contacts .au {
+    background-position: 0 -922px;
+}
+#sitenav-main .contacts .mail {
+    background-position: 0 -935px;
+}
+#sitenav-main .your-account {
+    background: url("main-sprite.png") no-repeat scroll 0 -1006px transparent;
+    color: #C1C1C1;
+    float: left;
+    font-family: "Segoe UI Light",Tahoma,arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    height: 46px;
+    line-height: 26px;
+    margin-left: 20px;
+    opacity: 0.8;
+    padding-left: 72px;
+    text-decoration: none;
+    width: 220px;
+}
+#sitenav-main .your-account span {
+    color: #939495;
+    display: block;
+    font-size: 11px;
+}
+#sitenav-main .your-account:hover {
+    opacity: 1;
+}
+.products {
+    overflow: hidden;
+}
+.products li {
+    background-clip: padding-box;
+    border-radius: 12px 12px 12px 12px;
+    margin-left: 4px;
+    margin-top: 4px;
+    padding: 8px;
+}
+.products li a {
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.9);
+    height: 100%;
+}
+.products li.active a, .products li:hover a {
+    box-shadow: none;
+}
+.products a {
+    display: block;
+    text-decoration: none;
+}
+.products li.dev-tools:hover, .products li.dev-tools.active {
+    background-color: rgba(33, 176, 88, 0.25);
+    box-shadow: none;
+}
+.products li.kendo:hover, .products li.kendo.active {
+    background-color: rgba(201, 90, 31, 0.25);
+    box-shadow: none;
+}
+.products li.test-studio:hover, .products li.test-studio.active {
+    background-color: rgba(95, 54, 113, 0.25);
+    box-shadow: none;
+}
+.products li.sitefinity:hover, .products li.sitefinity.active {
+    background-color: rgba(57, 136, 191, 0.25);
+    box-shadow: none;
+}
+.products li.team-pulse:hover, .products li.team-pulse.active {
+    background-color: rgba(158, 21, 48, 0.25);
+    box-shadow: none;
+}
+.products a.dev-tools {
+    background: -moz-linear-gradient(left center , #248E4E 0%, #21AF54 100%) repeat scroll 0 0 transparent;
+}
+.products a.dev-tools div {
+    background-position: 100% 0;
+}
+.products li a.dev-tools h2 {
+    padding-bottom: 16px;
+}
+.products a.kendo {
+    background: -moz-linear-gradient(left center , #C4571D 0%, #EF7535 100%) repeat scroll 0 0 transparent;
+}
+.products a.kendo div {
+    background-position: 100% -150px;
+}
+.products a.test-studio {
+    background: -moz-linear-gradient(left center , #5E3671 0%, #783F92 100%) repeat scroll 0 0 transparent;
+}
+.products a.test-studio div {
+    background-position: 100% -300px;
+}
+.products a.sitefinity {
+    background: -moz-linear-gradient(left center , #3A89BF 0%, #5CA8DC 100%) repeat scroll 0 0 transparent;
+}
+.products a.sitefinity div {
+    background-position: 100% -450px;
+}
+.products a.team-pulse {
+    background: -moz-linear-gradient(left center , #A01531 0%, #D31F43 100%) repeat scroll 0 0 transparent;
+}
+.products a.team-pulse div {
+    background-position: 100% -600px;
+}
+.products a.dev-tools, .products a.kendo, .products a.test-studio, .products a.sitefinity, .products a.team-pulse {
+    background-clip: padding-box;
+    border-radius: 5px 5px 5px 5px;
+}
+.products a.dev-tools div, .products a.kendo div, .products a.test-studio div, .products a.sitefinity div, .products a.team-pulse div {
+    background-clip: padding-box;
+    background-image: url("main-sprite.png");
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 5px;
+    height: 128px;
+    position: relative;
+}
+.products h2 {
+    color: #FFFFFF;
+    font-family: "Segoe UI Light",Tahoma,arial,sans-serif;
+    font-size: 24px;
+    left: 10px;
+    line-height: 24px;
+    position: absolute;
+    top: 12px;
+}
+.products h2 small {
+    display: block;
+    font-family: "Segoe UI",Tahoma,arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+.products p {
+    bottom: 8px;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 36px;
+    left: 10px;
+    line-height: 18px;
+    padding-right: 40px;
+    position: absolute;
+    right: 0;
+}
+#toggle-link {
+    background: url("main-sprite.png") no-repeat scroll -160px -752px transparent;
+    color: #C1C1C1;
+    cursor: pointer;
+    font-size: 10px;
+    height: 38px;
+    left: 50%;
+    line-height: 38px;
+    margin: 0 0 0 -65px;
+    padding-left: 34px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 130px;
+}
+#toggle-link.active {
+    background: url("main-sprite.png") no-repeat scroll -160px -792px transparent;
+}
+#sitenav-personal-info-menu {
+    color: #000;
+    height:26px;
+    
+    margin-top: 0px;
+}
+#sitenav-personal-info-menu li {
+    cursor: pointer;
+    float: left;
+    font-family: "Segoe UI",Tahoma,arial,sans-serif;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+#sitenav-personal-info-menu .sign-input, #sitenav-personal-info-menu .shopping-cart a {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #F0F0F4;
+    cursor: pointer;
+    font-family: "Segoe UI",Tahoma,arial,sans-serif;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#sitenav-personal-info-menu .shopping-cart {
+    background: url("main-sprite.png") no-repeat scroll -44px -894px transparent;
+    display: none;
+    height: 16px;
+    margin-top: 4px;
+    overflow: hidden;
+    text-indent: 500px;
+    white-space: nowrap;
+    width: 16px;
+}
+#sitenav-personal-info-menu .shopping-cart a {
+    display: block;
+    height: 11px;
+    width: 15px;
+}
+#sitenav-personal-info-menu .show-cart {
+    display: block;
+}
+#sitenav-personal-info-menu span {
+    text-transform: uppercase;
+}
+#sitenav-personal-info-menu .arrow {
+    display: none;
+    background: url("main-sprite.png") no-repeat scroll 50% -1054px transparent;
+    bottom: -1px;
+    cursor: default;
+    height: 12px;
+    position: relative;
+    z-index: 4;
+}
+#arrow {
+    background: url("main-sprite.png") no-repeat scroll 50% -1054px transparent;
+    cursor: default;
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    display:none;
+    width:15%;
+    left:-5%;
+}
+#drop-down-arrow {
+    background: url("main-sprite.png") no-repeat scroll -312px -953px transparent;
+    display: inline-block;
+    height: 7px;
+    margin-left: 3px;
+    width: 8px;
+}
+#sign-in-text {
+    background: url("main-sprite.png") no-repeat scroll 100% -950px transparent;
+    padding-right: 12px;
+}
+#sitenav-personal-info-panel, #sitenav-about-us-panel {
+    /*background: url("main-sprite.png") repeat-x scroll 0 100% padding-box transparent;*/
+    border: 1px solid #030304;
+    border-radius: 10px 10px 10px 10px;
+    cursor: default;
+    display: none;
+    position: absolute;
+    left:0px;
+    top: 44px;
+    width: 65%;
+    z-index: 100;
+    background-color:#ffffff;
+}
+#sitenav-personal-info-panel .inner-content, #sitenav-about-us-panel .inner-content {
+    background: -moz-linear-gradient(center top , #ffffff 0%, #ffffff 100%) repeat scroll 0 0 padding-box transparent;
+    border-bottom: 0px solid #030304;
+    border-radius: 0px 0px 0px 0px;
+    overflow: auto;
+    padding: 10px;
+    color: #000000;
+    height:180px;
+    margin-bottom:10px;
+}
+#sitenav-personal-info-panel h3, #sitenav-about-us-panel h3 {
+    color: #F0F0F4;
+    font-family: "Segoe UI Light";
+    font-size: 30px;
+    margin: 10px 0;
+}
+#sitenav-personal-info-panel .wood, #sitenav-about-us-panel .wood {
+    background-clip: padding-box;
+    border-radius: 9px 9px 9px 9px;
+    margin-top: -20px;
+    overflow: hidden;
+    padding: 20px 20px 0;
+}
+#sitenav-personal-info-panel .wood a.icon-button, #sitenav-about-us-panel .wood a.icon-button {
+    color: #FFFFFF;
+    display: block;
+    font-family: "Segoe UI Light",Tahoma,arial,sans-serif;
+    font-size: 24px;
+    height: 36px;
+    line-height: 32px;
+    margin: 10px 0;
+    opacity: 0.6;
+    padding-left: 46px;
+    position: relative;
+    text-decoration: none;
+}
+#sitenav-personal-info-panel .wood a.icon-button span, #sitenav-about-us-panel .wood a.icon-button span {
+    background: url("main-sprite.png") repeat-x scroll -120px -870px transparent;
+    height: 36px;
+    left: 0;
+    position: absolute;
+    width: 36px;
+}
+#sitenav-personal-info-panel .wood a.icon-button.insiders-blog span, #sitenav-about-us-panel .wood a.icon-button.insiders-blog span {
+    background-position: -120px -870px;
+}
+#sitenav-personal-info-panel .wood a.icon-button.add-bookmark, #sitenav-about-us-panel .wood a.icon-button.add-bookmark {
+    font-size: 18px;
+    line-height: 36px;
+    margin-bottom: 17px;
+}
+#sitenav-personal-info-panel .wood a.icon-button.add-bookmark span, #sitenav-about-us-panel .wood a.icon-button.add-bookmark span {
+    background-position: 0 -830px;
+}
+#sitenav-personal-info-panel .wood a.icon-button:hover, #sitenav-about-us-panel .wood a.icon-button:hover {
+    opacity: 0.8;
+}
+#sitenav-about-us-panel {
+    display: none;
+}
+#sitenav-about-us-panel ul, #sitenav-about-us-panel li {
+    background: none repeat scroll 0 0 transparent;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#sitenav-about-us-panel li {
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    width: 33%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#sitenav-about-us-panel li a {
+    color: #C1C1C1;
+    text-decoration: none;
+}
+#sitenav-about-us-panel li a:hover {
+    color: #FFFFFF;
+}
+#sitenav-personal-info-panel {
+    display: block;
+    position: absolute;
+    right: 9999px;
+}
+#sitenav-personal-info-panel h3 {
+    margin: 6px 0 5px;
+}
+#sitenav-personal-info-panel h3 span {
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: none;
+}
+#sitenav-personal-info-panel .account-avatar {
+    float: left;
+    height: 84px;
+    margin: 8px 0 0;
+    overflow: hidden;
+    width: 84px;
+}
+#sitenav-personal-info-panel .account-avatar img {
+    border: 2px solid #000000;
+    border-radius: 2px 2px 2px 2px;
+}
+#sitenav-personal-info-panel .profile-links {
+    float: left;
+    padding: 0;
+    width: 210px;
+}
+#sitenav-personal-info-panel .profile-links li {
+    clear: both;
+    height: auto;
+    margin-left: 12px;
+}
+#sitenav-personal-info-panel .profile-links a, #sitenav-personal-info-panel .profile-links input {
+    color: #C1C1C1;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: none !important;
+}
+#sitenav-personal-info-panel .profile-links a:hover, #sitenav-personal-info-panel .profile-links input:hover {
+    color: #FFFFFF;
+}
+.bookmarks {
+    margin-top: 30px;
+}
+#links-container {
+    clear: both;
+    margin: 10px 0 19px;
+    max-height: 100px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+    width: 309px;
+}
+#links-container li {
+    float: none;
+    list-style-position: outside;
+    margin: 0;
+    min-height: 24px;
+    padding-right: 20px;
+    position: relative;
+    width: 200px;
+}
+#links-container li:hover span {
+    display: block;
+}
+#links-container a {
+    color: #777777;
+    display: block;
+    font-family: "Segoe UI",Tahoma,arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+#links-container a:hover {
+    color: #FFFFFF;
+}
+#links-container .delete-bookmark {
+    background: url("main-sprite.png") no-repeat scroll -4px -954px transparent;
+    cursor: pointer;
+    display: none;
+    height: 14px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-indent: 20px;
+    top: 3px;
+    width: 14px;
+}
+.scrollbar-handle {
+    background-color: #4C4E52;
+    width: 4px;
+}
+#grid .dn {
+    display: none;
+}

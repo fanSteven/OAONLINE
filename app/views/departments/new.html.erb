@@ -1,0 +1,25 @@
+<h1>New department</h1>
+
+<% form_for(@department) do |f| %>
+    <p>
+        <%= f.label :cid %>
+        <%= f.text_field :cid %>
+    </p>
+
+    <p>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+    </p>
+    <p>
+        <%= f.label :chargeuserid %>
+        <%= f.text_field :chargeuserid %>
+    </p>
+    <p>
+        <%= f.label :desc %>
+        <%= f.text_field :desc %>
+    </p>
+<% end %>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', departments_path %>

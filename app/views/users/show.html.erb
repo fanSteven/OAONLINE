@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @user.post_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Seniority:</strong>
+  <%= @user.seniority %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @user.level %>
+</p>
+
+<p>
+  <strong>Did:</strong>
+  <%= @user.did %>
+</p>
+
+<p>
+  <strong>Role:</strong>
+  <%= @user.role_id %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @user.desc %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

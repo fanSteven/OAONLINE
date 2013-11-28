@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <%= csrf_meta_tags %>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="assets/jquery-1.9.1.min.js"></script>
+  <link href="assets/oa_online_style.css" type="text/css"  rel="stylesheet">
+  <link href="assets/login.css" type="text/css"  rel="stylesheet">
+  <script src="assets/login.js"></script>
+  <title>登录</title>
+  <!--为了让IE支持HTML5元素，做如下操作：-->
+  <!--[if IE]>
+  <script type="text/javascript">
+      document.createElement("section");
+      document.createElement("header");
+      document.createElement("footer");
+  </script>
+  <![endif]-->
+</head>
+
+<body>
+    <div class="wrap">
+      <%=form_tag "/dounionlogin",:id => "submitForm" do %>
+          <section class="loginForm">
+            <header>
+              <h1>
+                Login
+              </h1>
+            </header>
+            <div class="loginForm_content">
+                   <fieldset>
+                     <div class="inputWrap">
+                       <%= text_field("user","name",:class=> "inputWrap",:id=>"name",:type=>"text" )%>
+                     </div>
+                     <div class="inputWrap">
+                       <%= text_field("user","password",:class=>"inputWrap",:id=>"password",:type=>"password")%>
+                     </div>
+                   </fieldset>
+                   <fieldset>
+                       <input type="submit" onclick="" class="k-button" value="登录">
+                       <a href="/reg">
+                         免费注册
+                       </a>
+                       |
+                       <a href="/forgetpassword">
+                         找回密码
+                       </a>
+                       <span id="result_span"></span>
+                   </fieldset>
+                 </div>
+            </section>
+      <% end %>
+    </div>
+</body>
+</html>
