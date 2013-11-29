@@ -7,6 +7,21 @@
  */
 function userLogin()
 {
+    var tb = new $.TransportBuilder();
     var username = $("#uname").val();
     var userpass = $("#upassword").val();
+    var transport= tb.build({
+       baseUrl: "",
+       create:{urlTemp:"/dounionlogin"}
+    });
+
+    var dataSource = new kendo.data.DataSource({
+        transport: transport,
+        dataType:"json",
+        data:{
+            username:username,
+            password:userpass
+        }
+    });
+    dataSource.transport.create();
 }

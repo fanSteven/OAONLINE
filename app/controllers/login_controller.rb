@@ -4,7 +4,7 @@ class LoginController < ApplicationController
       if request.get?
         session[:user_id] = nil
       else
-        @user = User.login(params[:user][:name],params[:user][:password])
+        @user = User.login(params[:username],params[:password])
             #User.where("name = ? AND password = ?", params[:userName], params[:password]).first
         if @user
           session[:user_id] = @user.id
