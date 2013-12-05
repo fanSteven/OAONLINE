@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <%= csrf_meta_tags %>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="assets/login.js"></script>
+  <script src="assets/indexPage.js"></script>
+  <title>登录</title>
+  <!--为了让IE支持HTML5元素，做如下操作：-->
+  <!--[if IE]>
+  <script type="text/javascript">
+      document.createElement("section");
+      document.createElement("header");
+      document.createElement("footer");
+  </script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="wrap">
+  <%=form_tag :id => "submitForm" do %>
+      <section class="loginForm">
+        <header>
+          <h1>
+            Login
+          </h1>
+        </header>
+        <div id="tabstrip">
+          <div class="main_tab_line">
+            <a class="W_f22 W_Yahei cur" href="/dounionlogin">个人注册</a>
+            <span class="vline">|</span>
+            <a class="W_f22 W_Yahei" href="javascript:void(0);">企业注册</a>
+          </div>
+          <div>
+            <iframe id="user_login" src="/e_login" />
+          </div>
+        </div>
+      </section>
+  <% end %>
+</div>
+<script>
+
+</script>
+</body>
+</html>

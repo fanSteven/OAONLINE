@@ -1,0 +1,22 @@
+<%=form_tag "/e_login",:id => "e_login_form" do%>
+    <div class="loginForm_content">
+      <fieldset>
+        <div class="inputWrap">
+          <%= text_field("company","name",:class=> "inputWrap",:id=>"ename",:type=>"text" )%>
+        </div>
+        <div class="inputWrap">
+          <%= text_field("company","password",:class=>"inputWrap",:id=>"epassword",:type=>"password")%>
+        </div>
+      </fieldset>
+      <fieldset>
+        <input type="submit" class="k-button" value="登录">
+        <a href="/reg">
+          免费注册
+        </a>
+        |
+        <a href="/forgetpassword">
+          找回密码
+        </a>
+      </fieldset>
+    </div>
+<% end %>

@@ -1,0 +1,15 @@
+<%=form_tag "/user_login",:id => "user_login_form" do%>
+    <div class="loginForm_content">
+      <fieldset>
+        <div class="inputWrap">
+          <%= text_field("user","name",:class=> "inputWrap",:id=>"uname",:type=>"text" )%>
+        </div>
+        <div class="inputWrap">
+          <%= text_field("user","password",:class=>"inputWrap",:id=>"upassword",:type=>"password")%>
+        </div>
+      </fieldset>
+      <fieldset>
+        <input type="submit" class="k-button" value="登录">
+      </fieldset>
+    </div>
+<% end %>
