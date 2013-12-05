@@ -79,7 +79,6 @@
 		};
 		
 		this.build = function(settings) {
-			
 			var result = {};
 			var _this = this;
 			

@@ -17,7 +17,14 @@ OAONLINE::Application.routes.draw do
 
   resources :index
 
+  get "user_login" => "user_login#user_login"
+
+  get "e_login" => "e_login#e_login"
+
   post "dounionlogin" => "login#dounionlogin"
+  get "e_dounionlogin" => "login#e_dounionlogin"
+
+  post "enter_dounionlogin"=>"login#enter_dounionlogin"
 
   get "reg" => "companies#new"
 

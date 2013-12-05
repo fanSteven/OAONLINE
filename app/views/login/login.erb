@@ -4,6 +4,7 @@
   <%= csrf_meta_tags %>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <script src="assets/login.js"></script>
+  <script src="assets/indexPage.js"></script>
   <title>登录</title>
   <!--为了让IE支持HTML5元素，做如下操作：-->
   <!--[if IE]>
@@ -16,75 +17,32 @@
 </head>
 
 <body>
-    <div class="wrap">
-      <%=form_tag :method=>"post", :id => "submitForm" do %>
-          <section class="loginForm">
-            <header>
-              <h1>
-                Login
-              </h1>
-            </header>
-            <div id="tabstrip">
-              <ul>
-                <li class="k-state-active">
-                   User
-                </li>
-                <li>
-                  Company
-                </li>
-              </ul>
-              <div>
-                <div class="loginForm_content">
-                  <fieldset>
-                    <div class="inputWrap">
-                      <%= text_field("user","name",:class=> "inputWrap",:id=>"uname",:type=>"text" )%>
-                    </div>
-                    <div class="inputWrap">
-                      <%= text_field("user","password",:class=>"inputWrap",:id=>"upassword",:type=>"password")%>
-                    </div>
-                  </fieldset>
-                  <fieldset>
-                     <input class="k-button" value="登录" onclick="userLogin();"/>
-                  </fieldset>
-                </div>
-              </div>
-              <div>
-                <div class="loginForm_content">
-                  <fieldset>
-                    <div class="inputWrap">
-                      <%= text_field("company","name",:class=> "inputWrap",:id=>"cname",:type=>"text" )%>
-                    </div>
-                    <div class="inputWrap">
-                      <%= text_field("company","password",:class=>"inputWrap",:id=>"cpassword",:type=>"password")%>
-                    </div>
-                  </fieldset>
-                  <fieldset>
-                    <input type="submit" onclick="" class="k-button" value="登录">
-                    <a href="/reg">
-                      免费注册
-                    </a>
-                    |
-                    <a href="/forgetpassword">
-                      找回密码
-                    </a>
-                    <span id="result_span"></span>
-                  </fieldset>
-                </div>
-                 </div>
-            </div>
-            </section>
-      <% end %>
-    </div>
+<div class="wrap">
+  <%=form_tag :id => "submitForm" do %>
+      <section class="loginForm">
+        <header>
+          <h1>
+            Login
+          </h1>
+        </header>
+        <div id="tabstrip">
+          <div class="main_tab_line">
+            <a class="W_f22 W_Yahei cur" href="javascript:void(0);">个人注册</a>
+            <span class="vline">|</span>
+            <a class="W_f22 W_Yahei" href="/e_dounionlogin">企业注册</a>
+          </div>
+          <div>
+            <iframe id="user_login" src="/user_login" />
+          </div>
+          <div>
+            <iframe id="user_login" src="/e_login" />
+          </div>
+        </div>
+      </section>
+  <% end %>
+</div>
 <script>
-    $(document).ready(function() {
-        $("#tabstrip").kendoTabStrip({
-            animation:  {
-                open: {
-                    effects: "fadeIn"
-                }
-            }
-        });
-    });
+
 </script>
 </body>
 </html>
